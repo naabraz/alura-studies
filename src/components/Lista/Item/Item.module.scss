@@ -1,5 +1,5 @@
 .item {
-  background-color: #4D4D4D;
+  background-color: #900;
   border-radius: 8px;
   box-shadow: 2px 4px 4px #0000009F;
   padding: 12px;
@@ -27,12 +27,11 @@
 }
 
 .itemCompletado {
-  background-color: #566F42;
+  background-color: #006699;
   cursor: auto;
 
   .concluido {
     display: block;
-    background-image: url('../../../assets/img/check-mark.svg');
     background-repeat: no-repeat;
     background-size: 38px 38px;
     position: absolute;

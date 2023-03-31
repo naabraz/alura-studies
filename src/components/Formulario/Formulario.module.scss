@@ -1,10 +1,9 @@
 .novaTarefa {
-  display:flex;
+  display: flex;
   flex-direction: column;
   grid-area: nova-tarefa;
-  background-color: #7687A1;
   border-radius: 10px;
-  box-shadow: 2px 4px 4px #0000009F;
+  box-shadow: 2px 4px 4px #0000009f;
   padding: 12px;
 
   .inputContainer {
@@ -16,6 +15,7 @@
     label {
       margin-bottom: 8px;
       font-size: 1.25rem;
+      color: #006699;
     }
 
     input {
@@ -24,11 +24,14 @@
       box-sizing: border-box;
       border: unset;
       border-radius: 5px;
-      background-color: #5D677C;
-      box-shadow: 0px 2px 4px #2D2B2B9F inset;
+      background-color: #2d2b2b;
 
       &::placeholder {
-        color: #BFBFBF;
+        color: #bfbfbf;
+      }
+
+      &::-webkit-calendar-picker-indicator {
+        background: none;
       }
     }
   }

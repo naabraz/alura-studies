@@ -15,7 +15,7 @@ function requestPermission() {
 }
 
 function createNotification(tarefa: string) {
-  return new Notification(`Tarefa ${tarefa} terminada!`);
+  return new Notification(`Task ${tarefa} finished!`);
 }
 
 function App() {

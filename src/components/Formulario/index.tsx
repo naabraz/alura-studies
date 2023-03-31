@@ -66,7 +66,7 @@ function Formulario({ setTarefas }: Props) {
         />
       </div>
 
-      <Botao type="submit">
+      <Botao type="submit" small>
         Add
       </Botao>
     </form>

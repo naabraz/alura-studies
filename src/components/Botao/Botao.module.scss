@@ -2,7 +2,7 @@
   align-self: center;
   background-color: #900;
   border-radius: 10px;
-  box-shadow: 2px 4px 4px #0000009F;
+  box-shadow: 2px 4px 4px #0000009f;
   color: white;
   cursor: pointer;
   font-size: 1.25rem;
@@ -10,8 +10,8 @@
   width: 150px;
 
   &:active {
-    background-color: #7CA6B7;
-    box-shadow: 2px 2px 4px #0000009F inset;
+    background-color: #7ca6b7;
+    box-shadow: 2px 2px 4px #0000009f inset;
   }
 }
 
@@ -21,5 +21,10 @@
     justify-self: center;
     width: 200px;
     font-size: 2.25rem;
+  }
+
+  .botao-small {
+    width: 100px;
+    padding: 8px 12px 4px;
   }
 }

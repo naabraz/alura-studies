@@ -11,6 +11,7 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 16px;
+    margin-left: 20px;
 
     label {
       margin-bottom: 8px;
@@ -38,14 +39,14 @@
 
   @media screen and (min-width: 1280px) {
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 5px;
     font-size: 2.25rem;
     padding: 24px;
     box-sizing: border-box;
 
     .inputContainer {
-      width: calc(60% - 12px);
+      width: 80%;
 
       &:last-of-type {
         width: 40%;
